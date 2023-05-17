@@ -13,8 +13,8 @@ Chiral amines are common building blocks for producing pharmaceuticals and commo
  </br>
 
 
-As there are many softwares needed for running IREDFisher, we recommend to use our webserver at https://enzymeevolver.com/IREDFisher 
-or run our built docker container on your local machine.
+As there are many softwares needed for running IREDFisher, we recommend to use our webserver at 
+https://enzymeevolver.com/IREDFisher.
 
 ## Input file preparation
 1. sequence file: fasta format file </br>
@@ -26,23 +26,6 @@ or run our built docker container on your local machine.
    iii. add hydrogens and display the atom index </br>
    iv. save as pdb formatted file.</br>
    ![image](https://user-images.githubusercontent.com/61114239/116701229-934bd400-a9bf-11eb-86cc-919a3f12391b.png)
-   
-
-
-## Run IREDFisher Docker container
-Note:
-Please make sure that you have got license from MODELLER, otherwise you cannot run it by docker container.
-1. git clone https://github.com/yuyuqi-design/IREDFisher.git
-2. cd IREDFisher
-3. cd data
-4. #Download data from https://figshare.com/ndownloader/files/38466119 
-   </br>
-   wget -O IREDFisher_data.zip https://figshare.com/ndownloader/files/38466119
-6. unzip IREDFisher_database.zip
-7. cd ..
-8. sudo docker-compose -f docker-compose.yml build --no-cache
-9. sudo docker-compose -f docker-compose.yml up
-10. open your favourite browser and paste http://127.0.0.1:5000 
-11. login use email:admin@email.com and password as: password
-
+3. Fill in the imine N atom index. it is <b>1</b> in the example file from step 2.
+4. Click submit
 ### Enjoy!
