@@ -1,0 +1,39 @@
+HETATM    1  C01 UNK A 302       4.177 -29.246  33.547  1.00 21.88           C  
+HETATM    2  C1  UNK A 302       6.297 -30.189  34.446  1.00 21.87           C  
+HETATM    3  O1  UNK A 302       5.756 -29.731  35.706  1.00 22.89           O  
+HETATM    4  C02 UNK A 302       3.737 -26.889  33.428  1.00 21.88           C  
+HETATM    5  C2  UNK A 302       7.820 -30.086  34.408  1.00 21.42           C  
+HETATM    6  N01 UNK A 302       3.747 -28.066  34.309  1.00 21.88           N  
+HETATM    7  O2  UNK A 302       5.931 -31.509  34.129  1.00 23.48           O  
+HETATM    8  C3  UNK A 302       8.502 -29.566  35.492  1.00 20.16           C  
+HETATM    9  C4  UNK A 302       9.890 -29.587  35.523  1.00 22.92           C  
+HETATM   10  C5  UNK A 302      10.603 -30.094  34.463  1.00 22.41           C  
+HETATM   11  C6  UNK A 302       9.928 -30.591  33.359  1.00 22.43           C  
+HETATM   12  C7  UNK A 302       8.539 -30.595  33.341  1.00 19.63           C  
+HETATM   13  C8  UNK A 302       5.713 -29.252  33.431  1.00 24.60           C  
+HETATM   14  F2  UNK A 302       6.084 -29.578  32.162  1.00 26.60           F  
+HETATM   15  F3  UNK A 302       6.183 -28.047  33.707  1.00 26.33           F  
+HETATM   16  H01 UNK A 302       2.731 -26.734  33.039  1.00 21.88           H  
+HETATM   17  H02 UNK A 302       3.512 -30.001  33.128  1.00 21.88           H  
+HETATM   18  H05 UNK A 302       4.427 -27.049  32.600  1.00 21.88           H  
+HETATM   19  H06 UNK A 302       4.047 -26.010  33.994  1.00 21.88           H  
+CONECT    1    6   13   17
+CONECT    2    3    5    7   13
+CONECT    3    2
+CONECT    4    6   16   18   19
+CONECT    5    2    8   12
+CONECT    6    1    4
+CONECT    7    2
+CONECT    8    5    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12    5   11
+CONECT   13    1    2   14   15
+CONECT   14   13
+CONECT   15   13
+CONECT   16    4
+CONECT   17    1
+CONECT   18    4
+CONECT   19    4
+END
