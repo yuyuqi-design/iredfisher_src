@@ -1,4 +1,4 @@
-from enzyme_evolver.workflow_src import IREDFisher_ranking
+import IREDFisher_ranking
 from enzyme_evolver.workflow_src.docking import IREDFisher_docking, IREDFisher_scoring
 from enzyme_evolver.mongo.workflow_models import Job
 from enzyme_evolver import database_functions

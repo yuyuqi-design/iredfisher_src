@@ -26,3 +26,10 @@ def batch_auto_single_modelling(fasta_filename, base_folder, data_folder, db_fol
     batch.batch_template_info(df_best_template=df_template, datafolder=data_folder)
 
     return df_template, codes
+
+
+if __name__ == '__main__':
+    fasta_filename = 'allseq.fasta'
+    base_folder = '.'
+    data_folder = '.'
+    batch_auto_single_modelling(fasta_filename, base_folder, data_folder)

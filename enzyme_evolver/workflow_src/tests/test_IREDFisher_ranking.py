@@ -1,4 +1,4 @@
-from enzyme_evolver.workflow_src import IREDFisher_ranking
+import IREDFisher_ranking
 import os
 
 
